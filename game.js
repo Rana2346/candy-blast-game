@@ -39,4 +39,4 @@ function checkMatches() {
 
 createBoard();
 
-setInterval(checkMatches, 1000);
+set// checkMatches will run only after player moves
