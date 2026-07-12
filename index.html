@@ -3,25 +3,20 @@
 <head>
   <title>Candy Blast</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>🍬 Candy Blast</h1>
-  <p>Match candies and score points!</p>
 
-  <button onclick="play()">Start Game</button>
+<h1>🍬 Candy Blast</h1>
+<p>Match candies and get score!</p>
 
-  <h2 id="score">Score: 0</h2>
+<h2 id="score">Score: 0</h2>
 
-  <script>
-    let score = 0;
+<div id="game"></div>
 
-    function play(){
-      score += 10;
-      document.getElementById("score").innerHTML =
-      "Score: " + score;
-    }
-  </script>
+<script src="game.js"></script>
 
 </body>
 </html>
